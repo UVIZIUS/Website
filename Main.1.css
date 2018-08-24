@@ -1,0 +1,47 @@
+
+body {
+
+    color:white;
+    margin:20;
+    padding:20;
+    background-image: url("Fishy.jpg");
+}
+a, p {
+  font-family: monospace;
+    font-size: 250%;
+    
+}
+head
+{color: aquamarine;
+margin: 50%;
+padding: 50%;
+align-content: center;
+/* background-image:linear-gradient(rgba(0,0,0,0.5)),rgba())url(pic1.jpg) */
+
+height:110vh;
+background-size: cover;
+background-position: center; 
+padding-top:1em;
+}
+.main-nav 
+{
+/* float:center;  */
+list-style:none;
+margin-top:30px;
+}
+ul.main-nav {
+    display: flex;
+    flex-direction: row;
+    
+}
+.main-nav li 
+{
+    /* display: inline-block; */
+}
+.main-nav li a {
+color: white; 
+text-decoration-color: black;
+padding:5px 20px;
+/* font-family:"Roboto",sans-serif; */
+/* font-size: 30 px; */
+}
